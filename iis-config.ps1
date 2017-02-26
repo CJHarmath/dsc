@@ -23,7 +23,7 @@ Configuration iis-config {
 
    xIisLogging Logging{
        LogPath = "c:\logs\iis"
-       LogFlags = @("Date","Time","ClientIP","UserName","ServerIP")
+       LogFlags = @('Date','Time','ClientIP','UserName','SiteName','ComputerName','ServerIP','Method','UriStem','UriQuery','HttpStatus','Win32Status','BytesSent','BytesRecv','TimeTaken','ServerPort','UserAgent','Referer','Host','HttpSubStatus')
        LogPeriod = "Daily"
        LogFormat = "W3C"
    } 
